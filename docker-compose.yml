@@ -2,7 +2,7 @@
 services:
   db:
     image: mysql:8.0
-    container_name: ecommerce-db
+    container_name: ecommerce-db1
     restart: always
     environment:
       MYSQL_DATABASE: ecommerce
@@ -57,4 +57,5 @@ volumes:
 networks:
   ecommerce-net:
     driver: bridge
+
 
